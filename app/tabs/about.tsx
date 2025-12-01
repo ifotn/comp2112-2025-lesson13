@@ -1,6 +1,5 @@
-import { Link } from "expo-router";
 import { Text, View } from "react-native";
-import Styles from "./styles";
+import Styles from "../styles";
 
 export default function About() {
     // initialize stylesheet
@@ -9,7 +8,7 @@ export default function About() {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>About this App</Text>
-            <Link href="/">Go to Home Screen</Link>
+            {/* <Link href="/" style={styles.button}>Go to Home Screen</Link> */}
         </View>
     )
 }

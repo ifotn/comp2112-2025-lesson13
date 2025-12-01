@@ -10,6 +10,13 @@ export default function Styles() {
         text: {
             color: "#0c1880ff",
             fontWeight: "bold"
+        },
+        button: {
+            fontSize: 20,
+            backgroundColor: "#0c1880ff",
+            color: "#fff",
+            padding: 10,
+            margin: 10
         }
     });
 }
